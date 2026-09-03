@@ -1,0 +1,17 @@
+[project]
+name = "pa1414"
+version = "0.1.0"
+description = "Course repo for PA1414 at BTH"
+readme = "README.md"
+authors = [
+    { name = "kevin", email = "kevin.grundhall01@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+pa1414 = "pa1414:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
